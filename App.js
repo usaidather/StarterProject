@@ -1,10 +1,14 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
 
-import Screen1 from './screens/Screen1'
+import LandingScreen from './screens/LandingScreen'
+import SignInScreen from './screens/SigninScreen'
+import SignUpScreen from './screens/SignupScreen'
 
 const loginFlow = createStackNavigator({
-  screen1: Screen1,
+  LandingScreen: LandingScreen,
+  SignInScreen: SignInScreen,
+  SignUpScreen: SignUpScreen
  
 })
 
